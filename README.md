@@ -1,5 +1,4 @@
-# website-for-hallmark
-# Getting Started with Create React App
+# Getting Started with website-for-hallmark
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
