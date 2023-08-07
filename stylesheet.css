@@ -1,0 +1,91 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 960px;
+    background-color: rgb(226, 222, 202);
+}
+nav ul{
+    list-style-type:none;
+    padding:0;
+}
+nav li{
+    display:inline;
+    float:left;
+}
+nav a:link, nav a:visited{
+    background-color:brown;
+    color:whitesmoke;
+    font-weight:bold;
+    display:block;
+    width:240;
+    text-align:center;
+    padding:10px 0;
+}
+nav a:hover{
+    background-color:blueviolet;
+}
+a{
+    color:red;
+    text-decoration:none;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:blueviolet;
+}
+p{
+    text-align:justify;
+}
+label{
+    display:block;
+    width:200px;
+    float:left;
+    text-align:right;
+    margin: 10px 5px;
+    clear:left;
+}
+input, select, textarea{
+    margin: 10px 5px;
+    vertical-align:middle;
+}
+.checks, .radio{
+    vertical-align:middle;
+}
+#submit, #clear{
+    margin-left:200px; right:200px;
+}
+aside{
+    width: 280px;
+    float:right;
+    background-color: rgb(163, 20, 220);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+.photo-left{
+    float:left;
+    margin-right: 10px;
+}
+header{
+    background-image:url("images/HALLMARK1.png");
+    height: 100px;
+}
+footer{
+    margin: 40px 0;
+}
+footer nav a:link, footer nav a:visited{
+ color:blue;
+ text-decoration: none;
+ display: block;
+ width: 240px;
+ text-align: center;
+ background-color:rgba(51, 139, 0, 0.788);
+}
+footer nav a:hover{
+    color:black;
+}
+.below{
+    text-align: center;
+}
